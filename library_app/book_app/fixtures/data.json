@@ -1,0 +1,34 @@
+[
+    {
+      "model": "book_app.Book",
+      "pk": 1,
+      "fields": {
+        "title": "Gravity's Rainbow",
+        "pages": 800
+      }
+    },
+    {
+        "model": "book_app.Book",
+        "pk": 2,
+        "fields": {
+          "title": "All Quiet on The Western Front",
+          "pages": 300
+        }
+      },
+      {
+        "model": "book_app.Book",
+        "pk": 3,
+        "fields": {
+          "title": "Dictionary",
+          "pages": 944
+        }
+      },
+      {
+        "model": "book_app.Book",
+        "pk": 4,
+        "fields": {
+          "title": "Charlotte's Web",
+          "pages": 192
+        }
+      }
+  ]

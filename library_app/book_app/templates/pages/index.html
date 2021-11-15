@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My HTML Page</title>
+</head>
+<body>
+  <nav id="body-nav">
+
+  </nav>
+  <main id="body-main">
+    <h1>{{ heading }}</h1>
+    
+    <hr />
+    <a href="{% url 'book_create' %}"><button>Add New Book</button></a>
+    <hr />
+
+    <ul>
+    {% for book in books %}
+      <li><a href="{% url 'book_details' book.id %}">{{ book.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </main>
+  <footer id="body-footer">
+  
+  </footer>
+</body>
+</html>
+
+
+
+

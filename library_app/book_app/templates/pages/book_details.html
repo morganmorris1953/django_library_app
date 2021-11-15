@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Book Details</title>
+</head>
+<body>
+  <main id="body-main">
+    <h1>Title: {{ book.title }}</h1>
+    <p>This book has {{ book.pages }} pages.</p>
+    <hr />
+    <a href="{% url 'book_update' book.id %}">Update Book</a>
+    <br/>
+    <a href="{% url 'book_delete' book.id %}">Delete Book</a>
+    
+  </main>
+  <footer id="body-footer">
+    <nav id="footer-navbar">
+
+    </nav>
+
+  </footer>
+</body>
+</html>
